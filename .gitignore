@@ -1,0 +1,56 @@
+# ------------------------------
+# Python bytecode & cache
+# ------------------------------
+__pycache__/
+*$py.class
+
+# ------------------------------
+# Virtual environments
+# ------------------------------
+.env
+.venv/
+venv/
+
+# ------------------------------
+# IDEs & Editors
+# ------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ------------------------------
+# FastAPI / Uvicorn
+# ------------------------------
+*.log
+uvicorn.log
+
+# ------------------------------
+# LLM / AI related
+# ------------------------------
+# Prompt cache, vector dbs, embeddings
+.vector_cache/
+embeddings/
+
+# HuggingFace / Transformers cache
+.cache/
+
+# ------------------------------
+# Build / distribution
+# ------------------------------
+build/
+dist/
+
+# ------------------------------
+# Test & coverage
+# ------------------------------
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ------------------------------
+# Docker
+# ------------------------------
+*.pid
+docker-data/
