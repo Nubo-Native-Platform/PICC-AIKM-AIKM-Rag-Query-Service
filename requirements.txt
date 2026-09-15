@@ -1,0 +1,16 @@
+langchain
+langchain-community
+langchain-openai
+openai
+python-dotenv
+
+#Vector store
+pymilvus 
+
+## Embedding
+langchain-huggingface
+sentence-transformers
+fastapi
+uvicorn
+requests
+minio
